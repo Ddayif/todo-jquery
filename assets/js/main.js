@@ -1,13 +1,13 @@
 $(document).ready(function(){
 	$("#button").click(function(e){
-		 localStorage.setItem('listItems', $("#comentarios").html());
+		 localStorage.setItem('listItems', $("#textarea1").html());
 		e.preventDefault();
 		var tarea= $("#textarea1").val();// trae el valor ingresado por el usuario
 		if(tarea == "" && tarea == ""){
 			alert("Debes escribir una tarea");
 		}else{// si el usuario ingresa una tarea, esta se mostrara  junto al checkbox y el boton remove
 			$("ul").append('<li><input type="checkbox"/>' + tarea + '<a class="waves-effect waves-light btn btn-mio remover">Remove</a></li>');
-			$("#comentarios").val("");
+			$("#textarea1").val("");
 		}
 	});	
 		$(document).on("click", ".remover", function(){
