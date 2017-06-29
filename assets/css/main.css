@@ -23,8 +23,8 @@ textarea.mi-input{
 
 #comentarios {
     background-color: #546e7a;
-    margin-left: -11px;
-    width: 308px;
+    margin-left: 10px;
+    width: 172px;
     color: white;
 }
 
@@ -41,4 +41,10 @@ textarea.mi-input{
 	border-top: 1px solid rgba(160,160,160,0.2);
    	text-align: left;
    	margin-top: 116px;
+}
+
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+    position: absolute;
+    left: 0;
+    opacity: 1;
 }
