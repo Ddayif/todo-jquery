@@ -1,0 +1,22 @@
+body{
+	background-color: ghostwhite;
+}
+
+
+header{
+	background-color: rgba(187, 212, 208, 0.8);
+	color: #546e7a;
+}
+
+p{
+	display: inline-block;
+}
+
+#comentarios {
+    background-color: #546e7a;
+    margin-left: -111px;
+    width: 308px;
+    height: 121px;
+    color: white;
+}
+
