@@ -1,5 +1,6 @@
 body{
 	background-color: ghostwhite;
+	font-family: 'Noto Sans', sans-serif;
 }
 
 
@@ -12,11 +13,32 @@ p{
 	display: inline-block;
 }
 
+.title{
+	margin-left: 510px;
+}
+
+textarea.mi-input{
+	padding: 0;
+}
+
 #comentarios {
     background-color: #546e7a;
-    margin-left: -111px;
+    margin-left: -11px;
     width: 308px;
-    height: 121px;
     color: white;
 }
 
+.caja-contenedora{
+	    height: 459px;
+}
+
+.btn-mio{
+    margin-left: 300px;
+    bottom: 20px;
+}
+
+.completed{
+	border-top: 1px solid rgba(160,160,160,0.2);
+   	text-align: left;
+   	margin-top: 116px;
+}
